@@ -148,6 +148,7 @@
 ! sub (k)       = kissyface
 ! sub (f)       = rose
 ! sub (w)       = wilted rose
+! sub thank you = thanks, ty, thank u, thanks a lot, thanks so much
 
 // Person substitutions
 ! person i am    = you are
@@ -164,9 +165,9 @@
 ! array femalenoun = female girl chick woman women lady babe
 ! array mennoun    = males guys boys dudes bois men gentlemen
 ! array womennoun  = females girls chicks women ladies babes
-! array lol        = lol lmao rofl rotfl haha hahaha
+! array lol        = lol lmao rofl rotfl haha hahaha hehe hahahaha
 ! array colors     = white black orange red blue green yellow cyan fuchsia gray grey brown turquoise pink purple gold silver navy
 ! array height     = tall long wide thick
 ! array measure    = inch in centimeter cm millimeter mm meter m inches centimeters millimeters meters
-! array yes        = yes yeah yep yup ya yea sure ok
+! array yes        = yes yeah yep yup ya yea sure ok yah okay 
 ! array no         = no nah nope nay
