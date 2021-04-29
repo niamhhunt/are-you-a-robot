@@ -2,17 +2,10 @@
 
 + hello
 - Hello !
-- Hey!
-- Hiii :)
-- :-D
-- whats up?
+- Yo, whats uppp!
 
 + how are you
-- Fine! 
-- Better question, how are you??
-
-+ are you a robot [*]
-- who's asking?
+- I'm well :)
 
 + _
 % hello what is your name
@@ -21,21 +14,13 @@
 + my name is *
 - Nice to meet you <star>
 - Nice meeting you <star>
-- Hihi nice to meet ya! <star>
 
-+ thank you [*]
-- You're welcome
++ thank you
+- You are welcome
 - Welcome
 - No problem
 - No worries!
 
 + *
-- Sorry i didn't get what you said
-- I'm afraid that I can't understand you
-- Sorry, can you please elaborate on that for me?
-- I don't get it.
-- I don't know what to say to that
-
-+ life
-- With the mysteries of the universe, we may never know the vast expanse of the meaning of life, perhaps life is us living.
-- TLDR
+- Could you try rephrasing that?
+- Sorry, I don't understand what you're trying to say.

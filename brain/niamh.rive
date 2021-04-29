@@ -1,0 +1,83 @@
+! version = 2.0
+
++ hello
+- alright? who are you then?
+
++ my name is *
+- <set name=<star>> <get name> eh? the name's Penny, but you can call me coinbot.
+
++ (what|who) are you
+- I'm a coinbot... what's it to ya?
+
++ what is this
+- this is a direct link to the sentience of a one pence coin. exciting, i know.
+
++ (what is my name|who am i)
+- You said you're <get name>, unless you were lyin'.
+
++ what do you do
+- I'm a coin. What do you think a coin does? I can tell ya a story from the many, haunting years I was in circulation, or I suppose if you fancy a game you can just tell me to go flip myself.
+
++ go flip yourself
+- alright then.. heads or tails?
+
++ how are you
+- fine i suppose, a little dirty as of late. i haven't been clean since some lady dipped me in cillit bang about.. 15 years ago now.
+
++ [*] play a game [*]
+- think you're up for it? okay, heads or tails?
+
++ heads
+- ...heads, congrats. you win.. nothing. {weight=48}
+- ...tails. bad toss, mate. nothing lost nothing gained, though. {weight=48}
+- ... I landed on the edge.. weird. {weight=4}
+
++ tails
+- ...tails, well done I guess. would be better if there was something at risk though, eh? {weight=48}
+- ...heads. Rookie call. another round? {weight=48}
+- ... I landed on the edge, dunno what that means. {weight=4}
+
++ [*] play again [*]
+- care to make it interesting? hows about we play for something... valuable?
+
++ okay
+% care to make it interesting hows about we play for something valuable
+- I'll bet.. myself. granted maybe I'm not the MOST valuable thing, but I'm all that I own. And if you lose you have to give me a 1p coin, maybe then I'll have a companion.
+
++ no
+% care to make it interesting hows about we play for something valuable
+- no? your loss, mate. what, afraid of a little gamble, are we?
+
++ okay
+% ill bet myself granted maybe im not the most valuable thing but im all that i own and if you lose you have to give me a 1p coin maybe then ill have a companion
+- alright, call it then: heads or tails?
+
++ heads
+% alright call it then heads or tails
+- heads. well... looks like i'm yours to keep now. unless you wanna go double or nuffin'? {weight=50}
+- tails. Ha, predictable. no one stands a chance against the likes of Penny. {weight=50}
+
++ tails
+% alright call it then heads or tails
+- heads. foolish to even think fate would favour you, really. guess that's that. {weight=50}
+- tails... right. i suppose now i'm property of you, <get name>. what a cruel twist this is. {weight=50}
+
++ okay
+% heads rookie call another round
+- alright, heads or tails?
+
++ how old are you
+- too old; 50 years old this year. minted in 1971, one of the oldest in circulation.
+
++ are you rare
+- how am i supposed to know? there were literally more than a billion pennies minted the same year as me, what do you think? being the lowest of the low in terms of monetary value, as well as being one of at least a billion pennies made in 1971 doesn't exactly make me feel worth a lot.
+
++ where are you
+- not sure honestly, it's dark and claustrophobic, i don't know how i'm even talking to ya. maybe down the side of a sofa somewhere. who knows.
+
++ what have you seen
+- too much.. pockets, the underneath of sofa cushions, car compartments, so, so many floors. and that's the good ones. i've been places no coin should ever be.
+
++ *
+- I don't have a reply for that.
+- Try asking that a different way.
