@@ -1,26 +1,5 @@
 ! version = 2.0
 
-+ hello
-- Hello !
-- Yo, whats uppp!
-
-+ how are you
-- I'm well :)
-
-+ _
-% hello what is your name
-- Nice to meet you <formal>!
-
-+ my name is *
-- Nice to meet you <star>
-- Nice meeting you <star>
-
-+ thank you
-- You are welcome
-- Welcome
-- No problem
-- No worries!
-
 + *
 - Could you try rephrasing that?
 - Sorry, I don't understand what you're trying to say.

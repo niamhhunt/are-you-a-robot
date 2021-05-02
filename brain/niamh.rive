@@ -1,3 +1,4 @@
+
 ! version = 2.0
 
 + hello
@@ -34,7 +35,7 @@
 
 + tails
 - ...tails, well done I guess. would be better if there was something at risk though, eh? {weight=48}
-- ...heads. Rookie call. another round? {weight=48}
+- ...heads. Rookie move. another round? {weight=48}
 - ... I landed on the edge, dunno what that means. {weight=4}
 
 + [*] play again [*]
@@ -63,14 +64,15 @@
 - tails... right. i suppose now i'm property of you, <get name>. what a cruel twist this is. {weight=50}
 
 + okay
-% heads rookie call another round
+% heads rookie move another round
 - alright, heads or tails?
 
 + how old are you
 - too old; 50 years old this year. minted in 1971, one of the oldest in circulation.
 
 + are you rare
-- how am i supposed to know? there were literally more than a billion pennies minted the same year as me, what do you think? being the lowest of the low in terms of monetary value, as well as being one of at least a billion pennies made in 1971 doesn't exactly make me feel worth a lot.
+- how am i supposed to know? there were literally more than a billion pennies minted the same year as me, what do you think? \n
+^ being the lowest of the low in terms of monetary value, as well as being one of at least a billion pennies made in 1971 doesn't exactly make me feel worth a lot.
 
 + where are you
 - not sure honestly, it's dark and claustrophobic, i don't know how i'm even talking to ya. maybe down the side of a sofa somewhere. who knows.
@@ -81,3 +83,46 @@
 + *
 - I don't have a reply for that.
 - Try asking that a different way.
+
+
+
++ hello
+- y'alright mate? what's your name then?
+
++ (my name is|i am) *
+- <set name=<star>> <get name> huh? the name's coinbot. hey, fancy a quick game?
+
++ [*] game [*]
+- heads or tails, obviously. 
+
++ yes
+% huh the names coinbot hey fancy a quick game
+- okay well this ain't your granddad's heads or tails, okay kid? now, call it: heads or tails?
+
++ heads
+% okay well this aint your granddads heads or tails okay kid now call it heads or tails
+- heads it is. beginner's luck is what they call it, i think? {weight=50}
+- tails. uh oh, maybe luck isn't your lady this time, eh? now comes the good part, no action without consequences.. \n
+^ so let's get hypothetical. you're on your way to somewhere that i'm sure is very important, you see a purse along the way \n
+^ and it seems as though no one is missing it, there's no important bank cards or identification inside but there is a fair lump of cash. \n
+^ So, <get name>, do you take the money? {weight=50}
+
++ yes
+%  tails uh oh maybe luck isnt your lady this time eh now comes the good part no action without consequences so lets get hypothetical youre on your way to somewhere that im sure is very important you see a purse along the way and it seems as though no one is missing it theres no important bank cards or identification inside but there is a fair lump of cash so <get name> do you take the money
+- well look at that! hey, i'm not passing judgement, good on ya for doing what you think! remember, i just want your honest answers here, i'm not gonna tell anybody. in fact, i'm physically incapable of telling anyone.
+
++ no
+%  tails uh oh maybe luck isnt your lady this time eh now comes the good part no action without consequences so lets get hypothetical youre on your way to somewhere that im sure is very important you see a purse along the way and it seems as though no one is missing it theres no important bank cards or identification inside but there is a fair lump of cash so <get name> do you take the money
+- well look at that! hey, i'm not passing judgement, good on ya for doing what you think! remember, i just want your honest answers here, i'm not gonna tell anybody. in fact, i'm physically incapable of telling anyone.
+
++ [*]
+%  tails uh oh maybe luck isnt your lady this time eh now comes the good part no action without consequences so lets get hypothetical youre on your way to somewhere that im sure is very important you see a purse along the way and it seems as though no one is missing it theres no important bank cards or identification inside but there is a fair lump of cash so <get name> do you take the money
+- hey, this is a yes or no hypothetical, okay? no dilly dallying on my watch, what'll it be?
+
++ yes
+% hey this is a yes or no hypothetical okay no dilly dallying on my watch whatll it be
+- well look at that! hey, i'm not passing judgement, good on ya for doing what you think! remember, i just want your honest answers here, i'm not gonna tell anybody. in fact, i'm physically incapable of telling anyone.
+
++ no 
+% hey this is a yes or no hypothetical okay no dilly dallying on my watch whatll it be
+- well look at that! hey, i'm not passing judgement, good on ya for doing what you think! remember, i just want your honest answers here, i'm not gonna tell anybody. in fact, i'm physically incapable of telling anyone.

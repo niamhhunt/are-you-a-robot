@@ -1,0 +1,28 @@
+! version = 2.0
+
++ hello 
+- Hi there, I'm CoinBot! What's your name?.
+
++ my name is *
+- <set name=<formal>>Nice to meet you, <get name>. Wanna play a game? heads1 or tails1?
+
++ (what is my name|who am i)
+- You're <get name>, right? anyway, wanna play heads1 or tails1?
+- Oof that's a load of existentialism right there, anyway lets play and get rich :D 
+
++ *
+- Oh come on, it's only harmless fun.
+- You get to see how rich you'll be? tempting right??
+- I'm curious as to how you'll thrive in this game.
+
++ [*] (heads1) [*]
+- Woo! £1000! you lucky thing, but woop, your car insurance took off £100, wanna keep going, this is good! heads or tails?
+
++ [*] (tails1) [*]
+- Oh wow, £2000! lucky thing! but hey woops, your taxes raised by £100, wanna keep going heads2 or tails2? 
+
++ [*] (heads12) [*]
+- Oh wow, so you've made X but lost Y amount, this is fun though, wanna play again and see how lucky you get? heads1 or tails2? 
+
++ [*] (tails12) [*]
+- Oh wow, so you've made X but lost Y amount, this is fun though, wanna play again and see how lucky you get? heads1 or tails1?
