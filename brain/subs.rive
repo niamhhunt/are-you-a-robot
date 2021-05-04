@@ -149,10 +149,6 @@
 ! sub (k)       = kissyface
 ! sub (f)       = rose
 ! sub (w)       = wilted rose
-! sub thank you = thanks, ty, thank u, thanks a lot, thanks so much, tysm
-! sub yes       = yeah, yh, yea, yep, yup, yess, yesss, okay, ok
-! sub no        = nope, nah, no thanks, noo, nooo, no way, not really
-! sub hello     = hi, hey, hii, heyy, whats up, sup, yo, yoo, greetings, hello there, hey there, hiya
 
 // Person substitutions
 ! person i am    = you are

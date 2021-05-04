@@ -1,12 +1,4 @@
 
-! version = 2.0
-
-+ hello
-- alright? who are you then?
-
-+ my name is *
-- <set name=<star>> <get name> eh? the name's Penny, but you can call me coinbot.
-
 + (what|who) are you
 - I'm a coinbot... what's it to ya?
 

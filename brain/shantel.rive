@@ -1,7 +1,20 @@
-! version = 2.0
-
 + hello 
 - Hi there, I'm CoinBot! What's your name?.
+
++ lets play
+- OK, heads or tails?
+
++ _
+% ok heads or tails
+* <star> == heads => you won!<set heads=1>
+* <star> == tails => you lost!<set tails=1>
+- I only have a head and a tail!
+
++ how many heads have i called
+- <get heads>
+
++ how many tails have i called
+- <get tails>
 
 + my name is *
 - <set name=<formal>>Nice to meet you, <get name>. Wanna play a game? heads1 or tails1?
