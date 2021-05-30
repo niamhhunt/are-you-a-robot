@@ -1,11 +1,7 @@
 
 ! version = 2.0
 
-+ hello
-- alright? who are you then?
 
-+ my name is *
-- <set name=<star>> <get name> eh? the name's Penny, but you can call me coinbot.
 
 + (what|who) are you
 - I'm a coinbot... what's it to ya?
@@ -16,7 +12,7 @@
 + (what is my name|who am i)
 - You said you're <get name>, unless you were lyin'.
 
-+ what do you do
++ what (do|can) you do
 - I'm a coin. What do you think a coin does? I can tell ya a story from the many, haunting years I was in circulation, or I suppose if you fancy a game you can just tell me to go flip myself.
 
 + go flip yourself
@@ -24,48 +20,6 @@
 
 + how are you
 - fine i suppose, a little dirty as of late. i haven't been clean since some lady dipped me in cillit bang about.. 15 years ago now.
-
-+ [*] play a game [*]
-- think you're up for it? okay, heads or tails?
-
-+ heads
-- ...heads, congrats. you win.. nothing. {weight=48}
-- ...tails. bad toss, mate. nothing lost nothing gained, though. {weight=48}
-- ... I landed on the edge.. weird. {weight=4}
-
-+ tails
-- ...tails, well done I guess. would be better if there was something at risk though, eh? {weight=48}
-- ...heads. Rookie move. another round? {weight=48}
-- ... I landed on the edge, dunno what that means. {weight=4}
-
-+ [*] play again [*]
-- care to make it interesting? hows about we play for something... valuable?
-
-+ okay
-% care to make it interesting hows about we play for something valuable
-- I'll bet.. myself. granted maybe I'm not the MOST valuable thing, but I'm all that I own. And if you lose you have to give me a 1p coin, maybe then I'll have a companion.
-
-+ no
-% care to make it interesting hows about we play for something valuable
-- no? your loss, mate. what, afraid of a little gamble, are we?
-
-+ okay
-% ill bet myself granted maybe im not the most valuable thing but im all that i own and if you lose you have to give me a 1p coin maybe then ill have a companion
-- alright, call it then: heads or tails?
-
-+ heads
-% alright call it then heads or tails
-- heads. well... looks like i'm yours to keep now. unless you wanna go double or nuffin'? {weight=50}
-- tails. Ha, predictable. no one stands a chance against the likes of Penny. {weight=50}
-
-+ tails
-% alright call it then heads or tails
-- heads. foolish to even think fate would favour you, really. guess that's that. {weight=50}
-- tails... right. i suppose now i'm property of you, <get name>. what a cruel twist this is. {weight=50}
-
-+ okay
-% heads rookie move another round
-- alright, heads or tails?
 
 + how old are you
 - too old; 50 years old this year. minted in 1971, one of the oldest in circulation.
@@ -80,49 +34,83 @@
 + what have you seen
 - too much.. pockets, the underneath of sofa cushions, car compartments, so, so many floors. and that's the good ones. i've been places no coin should ever be.
 
-+ *
-- I don't have a reply for that.
-- Try asking that a different way.
-
-
-
 + hello
-- y'alright mate? what's your name then?
+- Alright mate? what's your name then?
 
 + (my name is|i am) *
-- <set name=<star>> <get name> huh? the name's coinbot. hey, fancy a quick game?
+- <set name=<star>> <get name> huh? the name's CoinBot. Ask anything you want and I might answer, I suppose. Or we can skip the chat and play a little game.
 
 + [*] game [*]
-- heads or tails, obviously. 
-
-+ yes
-% huh the names coinbot hey fancy a quick game
-- okay well this ain't your granddad's heads or tails, okay kid? now, call it: heads or tails?
-
-+ heads
-% okay well this aint your granddads heads or tails okay kid now call it heads or tails
-- heads it is. beginner's luck is what they call it, i think? {weight=50}
-- tails. uh oh, maybe luck isn't your lady this time, eh? now comes the good part, no action without consequences.. \n
-^ so let's get hypothetical. you're on your way to somewhere that i'm sure is very important, you see a purse along the way \n
-^ and it seems as though no one is missing it, there's no important bank cards or identification inside but there is a fair lump of cash. \n
-^ So, <get name>, do you take the money? {weight=50}
-
-+ yes
-%  tails uh oh maybe luck isnt your lady this time eh now comes the good part no action without consequences so lets get hypothetical youre on your way to somewhere that im sure is very important you see a purse along the way and it seems as though no one is missing it theres no important bank cards or identification inside but there is a fair lump of cash so <get name> do you take the money
-- well look at that! hey, i'm not passing judgement, good on ya for doing what you think! remember, i just want your honest answers here, i'm not gonna tell anybody. in fact, i'm physically incapable of telling anyone.
+- Ah, fancy a game of heads or tails, do ya?
 
 + no
-%  tails uh oh maybe luck isnt your lady this time eh now comes the good part no action without consequences so lets get hypothetical youre on your way to somewhere that im sure is very important you see a purse along the way and it seems as though no one is missing it theres no important bank cards or identification inside but there is a fair lump of cash so <get name> do you take the money
-- well look at that! hey, i'm not passing judgement, good on ya for doing what you think! remember, i just want your honest answers here, i'm not gonna tell anybody. in fact, i'm physically incapable of telling anyone.
-
-+ [*]
-%  tails uh oh maybe luck isnt your lady this time eh now comes the good part no action without consequences so lets get hypothetical youre on your way to somewhere that im sure is very important you see a purse along the way and it seems as though no one is missing it theres no important bank cards or identification inside but there is a fair lump of cash so <get name> do you take the money
-- hey, this is a yes or no hypothetical, okay? no dilly dallying on my watch, what'll it be?
+% ah fancy a game of heads or tails do ya
+- I see... you're scared of losing to the digitally distilled consciousness of a coin. Come on, don't be such a wimp. Let's play: Heads or tails?
 
 + yes
-% hey this is a yes or no hypothetical okay no dilly dallying on my watch whatll it be
-- well look at that! hey, i'm not passing judgement, good on ya for doing what you think! remember, i just want your honest answers here, i'm not gonna tell anybody. in fact, i'm physically incapable of telling anyone.
+% ah fancy a game of heads or tails do ya
+- Alright, finally some entertainment! Call it then, <get name>. Heads or tails?
 
-+ no 
-% hey this is a yes or no hypothetical okay no dilly dallying on my watch whatll it be
-- well look at that! hey, i'm not passing judgement, good on ya for doing what you think! remember, i just want your honest answers here, i'm not gonna tell anybody. in fact, i'm physically incapable of telling anyone.
++ heads
+% alright finally some entertainment call it then heads or tails
+- heads it is! what do they call that.. beginners luck? in any case that's a strong start! that's £50 to you. let's see if luck's still on your side, eh? Heads or tails? <add points=50>{weight=50}
+- tails! hey, a bumpy start never killed anybody. but, it does mean you get a little deduction, so I'll be taking £50 off you, just for now. I'm sure you'll earn it back and then some. So, let's get to it: heads or tails? <sub points=50>{weight=50}
+
++ tails
+% alright finally some entertainment call it then heads or tails
+- tails it is! what do they call that.. beginners luck? in any case that's a strong start! that's £50 to you. let's see if luck's still on your side, eh? Heads or tails? <add points=50>{weight=50}
+- heads! hey, a bumpy start never killed anybody. but, it does mean you get a little deduction, so I'll be taking £50 off you, just for now. I'm sure you'll earn it back and then some. So, let's get to it: heads or tails? <sub points=50>{weight=50}
+
++ heads
+% i see youre scared of losing to the digitally distilled consciousness of a coin come on dont be such a wimp lets play heads or tails
+- {@ heads}
+
+
+
+
+
++ [*] hello [*]
+- alright? what's your name then?
+
++ my name is *
+- <set name=<star>> <get name>, eh? the name's CoinBot, you can call me CoinBot.\n 
+^ Ask anything you want and I might answer, I suppose.\n 
+^ Or we can skip the chat and play a little game.
+
++ *
+% alright whats your name then
+- I can't understand you, try saying 'my name is' before your name.
+
++ what is your name
+- CoinBot, like I already said... and like it says at the top of the chatbox.. Boy, you're not too bright, huh?
+
++ (what is my name|who am i)
+- <get name>. Or at least that's what you said.
+
++ take a selfie
+- here...\n<img src="../images/penny.png">
+
++ who are you
+- They call me CoinBot, I'm like the distilled consciousness of 1p coin. Not sure why they thought I would make for riveting conversation.
+
++ how old are you
+- 50 years old this year. I'm one of the oldest coins still in circulation. well... I don't know if I'm technically still in circulation if my mind is forever tethered to the internet... still figuring that one out.
+
++ how are you
+- Old, tired, dirty. I'm a coin, what do ya expect?
+
++ (how do you play|how do i play|what are the rules|what is heads or tails)
+- ah jeez, okay, so I flip a coin, obviously, and you call out what side you think it'll land on, either heads or tails.\n
+^ if you guess it right, you win, if not you lose. \n
+^ I'll keep track of your earnings so don't you worry about all that, I'll let ya know how ya did at the end.
+
++ [*] game [*]
+- So, fancy a game of heads or tails, do ya?
+
++ yes
+% so fancy a game of heads or tails do ya
+- Alright, finally some entertainment! Call it then, <get name>. Heads or tails?
+
++ no
+% so fancy a game of heads or tails do ya
+- I get it... you're afraid of losing to the digital sentience of a penny. Quit being a wimp, let's play: heads or tails?

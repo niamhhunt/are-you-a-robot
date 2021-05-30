@@ -81,7 +81,6 @@
 ! sub fav       = favorite
 ! sub fave      = favorite
 ! sub yesi      = yes i
-
 ! sub yetit     = yet it
 ! sub iam       = i am
 ! sub welli     = well i
@@ -149,10 +148,50 @@
 ! sub (k)       = kissyface
 ! sub (f)       = rose
 ! sub (w)       = wilted rose
-! sub thank you = thanks, ty, thank u, thanks a lot, thanks so much, tysm
-! sub yes       = yeah, yh, yea, yep, yup, yess, yesss, okay, ok
-! sub no        = nope, nah, no thanks, noo, nooo, no way, not really
-! sub hello     = hi, hey, hii, heyy, whats up, sup, yo, yoo, greetings, hello there, hey there, hiya
+! sub thanks    = thank you
+! sub ty        = thank you
+! sub thank u   = thank you
+! sub thanks a lot = thank you
+! sub tysm      = thank you
+! sub thanks so much = thank you
+! sub thank     = thank you
+! sub thanku    = thank you
+! sub thankyou  = thank you
+! sub yeah      = yes
+! sub yh        = yes
+! sub yea       = yes
+! sub yep       = yes
+! sub yup       = yes
+! sub yess      = yes
+! sub yesss     = yes
+! sub okay      = yes
+! sub ok        = yes
+! sub yessss    = yes
+! sub nope       = no
+! sub nah        = no
+! sub no thanks  = no
+! sub noo        = no
+! sub nooo       = no
+! sub no way     = no
+! sub not really = no
+! sub hi        = hello
+! sub hey       = hello
+! sub hii       = hello
+! sub heyy      = hello
+! sub whats up  = hello
+! sub sup       = hello
+! sub yo        = hello
+! sub yoo       = hello
+! sub greetings = hello
+! sub hello there = hello
+! sub hey there     = hello
+! sub heya     = hello
+! sub hiya     = hello
+! sub my names = my name is
+! sub i am called = my name is
+! sub tail = tails
+! sub head = heads
+
 
 // Person substitutions
 ! person i am    = you are

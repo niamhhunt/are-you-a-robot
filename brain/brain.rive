@@ -1,5 +1,114 @@
 ! version = 2.0
 
++ [*] hello [*]
+- Alright? What's your name then?
+
++ my name is *
+- <set name=<formal>><get name>, eh? the name's CoinBot, you can call me CoinBot.\n 
+^ Ask anything you want and I might answer, I suppose.\n 
+^ Or we can make this interesting and play a little game of heads or tails.
+
 + *
-- Could you try rephrasing that?
-- Sorry, I don't understand what you're trying to say.
+% alright whats your name then
+- Sorry, I didn't get that. Ya gotta say 'my name is' before your name, kid.
+
++ [*] rigged [*]
+- Rigged? I don't even know the meaning of the word.
+- You only say that 'cos you're losing.
+- Nonsense! Gambling is always just and fair, <get name>. As is the world we live in. 
+
++ what is your name
+- CoinBot, like I already said... and like it says at the top of the chatbox.. Boy, you're not too bright, huh?
+
++ (what is my name|who am i)
+- <get name>. Or at least that's what you said.
+
++ take a selfie
+- here...\n<img src="../images/penny.png">
+
++ who are you
+- They call me CoinBot, I'm the distilled consciousness of 1p coin. Not sure why they thought I would make for riveting conversation.
+
++ how old are you
+- 50 years old this year. I'm one of the oldest coins still in circulation. Well... I don't know if I'm technically still in circulation if my mind is forever tethered to the internet... still figuring that one out.
+
++ how are you
+- Old, tired, dirty. I'm a coin, what d'ya expect?
+
++ (how do you play|how do i play|what are the rules|what is heads or tails|what kind of game|what game)
+- Jeez, okay, so I flip a coin, obviously, and you call out what side you think it'll land on, either heads or tails.\n
+^ If you guess it right, you win, if not you lose. \n
+^ I'll keep track of your earnings so don't you worry about all that, I'll let ya know how ya did at the end.
+
++ [*] (play|game) [*]
+- So, fancy a game of heads or tails, do ya?
+
++ yes [*]
+% so fancy a game of heads or tails do ya
+- Alright, finally some entertainment! Call it then, <get name>. Heads or tails?
+
++ no [*]
+% so fancy a game of heads or tails do ya
+- Oh, I see... you're afraid of losing to the digital sentience of a penny. Quit being a wimp and let's play: heads or tails?
+
++ heads
+% alright finally some entertainment call it then <get name> heads or tails
+- Heads it is! What do they call that.. beginners luck? In any case that's a strong start! That's £50 to you. Let's see if luck's still on your side, eh? Heads or tails? <add points=50>{weight=50}
+- Tails! Hey, a bumpy start never killed anybody. BUT, it does mean you get a little deduction, so I'll be taking £50 off you, just for now. I'm sure you'll earn it back and then some. So, let's get to it: heads or tails? <sub points=50>{weight=50}
+
++ tails
+% alright finally some entertainment call it then <get name> heads or tails
+- Tails it is! What do they call that.. beginners luck? In any case that's a strong start! That's £50 to you. Let's see if luck's still on your side, eh? Heads or tails? <add points=50>{weight=50}
+- Heads! Hey, a bumpy start never killed anybody. BUT, it does mean you get a little deduction, so I'll be taking £50 off you, just for now. I'm sure you'll earn it back and then some. So, let's get to it: heads or tails? <sub points=50>{weight=50}
+
++ heads
+% oh i see youre afraid of losing to the digital sentience of a penny quit being a wimp lets play heads or tails
+- Heads it is! what do they call that.. beginners luck? In any case that's a strong start! That's £50 to you. Let's see if luck's still on your side, eh? Heads or tails? <add points=50>{weight=50}
+- Tails! Hey, a bumpy start never killed anybody. BUT, it does mean you get a little deduction, so I'll be taking £50 off you, just for now. I'm sure you'll earn it back and then some. So, let's get to it: heads or tails? <sub points=50>{weight=50}
+
++ tails
+% oh i see youre afraid of losing to the digital sentience of a penny quit being a wimp lets play heads or tails
+- Tails it is! What do they call that.. beginners luck? In any case that's a strong start! That's £50 to you. Let's see if luck's still on your side, eh? Heads or tails? <add points=50>{weight=50}
+- Heads! Hey, a bumpy start never killed anybody. BUT, it does mean you get a little deduction, so I'll be taking £50 off you, just for now. I'm sure you'll earn it back and then some. So, let's get to it: heads or tails? <sub points=50>{weight=50}
+
+
+
++ heads
+% heads it is what do they call that beginners luck in any case thats a strong start thats 50 to you lets see if lucks still on your side eh heads or tails
+- Heads again! Look at that! That's £50 to ya. Y'know.. heads can't always win, maybe you should go for tails next, just for probabilitys sake. But hey, what do I know? I'm just a coin. So, same again: heads or tails? <add points=50>{weight=50}
+- Tails this time! Maybe this is just the universe finding balance, who knows. Unfortunately for you, I'm gonna have to take your hard-earned money. Don't worry, I'm sure you'll get it back in no time. Speaking of, heads or tails? <sub points=50>{weight=50}
+
++ tails
+% heads it is what do they call that beginners luck in any case thats a strong start thats 50 to you lets see if lucks still on your side eh heads or tails
+- Tails again! Look at that! That's £50 to ya. Y'know.. tails can't always win, maybe you should go for heads next, just for probabilitys sake. But hey, what do I know? I'm just a coin. So, same again: heads or tails? <add points=50>{weight=50}
+- Heads this time! Maybe this is just the universe finding balance, who knows. Unfortunately for you, I'm gonna have to take your hard-earned money. Don't worry, I'm sure you'll get it back in no time. Speaking of, heads or tails? <sub points=50>{weight=50}
+
++ heads
+% tails hey a bumpy start never killed anybody but it does mean you get a little deduction so ill be taking 50 off you just for now im sure youll earn it back and then some so lets get to it heads or tails
+- Heads again! Look at that! That's another £50 to ya. Y'know.. heads can't always win, maybe you should go for tails next, just for probabilitys sake. But hey, what do I know? I'm just a coin. So, same again: heads or tails? <add points=50>{weight=50}
+- Tails this time! Maybe this is just the universe finding balance, who knows. Unfortunately for you, I'm gonna have to take your hard-earned money. Don't worry, I'm sure you'll get it back in no time. Speaking of, heads or tails? <sub points=50>{weight=50}
+
++ tails
+% tails hey a bumpy start never killed anybody but it does mean you get a little deduction so ill be taking 50 off you just for now im sure youll earn it back and then some so lets get to it heads or tails
+- Tails again! Look at that! That's another £50 to ya. Y'know.. tails can't always win, maybe you should go for heads next, just for probabilitys sake. But hey, what do I know? I'm just a coin. So, same again: heads or tails? <add points=50>{weight=50}
+- Heads this time! Maybe this is just the universe finding balance, who knows. Unfortunately for you, I'm gonna have to take your hard-earned money. Don't worry, I'm sure you'll get it back in no time. Speaking of, heads or tails? <sub points=50>{weight=50}
+
++ heads
+% tails it is what do they call that beginners luck in any case thats a strong start thats 50 to you lets see if lucks still on your side eh heads or tails
+- Heads again! Look at that! That's £50 to ya. Y'know.. heads can't always win, maybe you should go for tails next, just for probabilitys sake. But hey, what do I know? I'm just a coin. So, same again: heads or tails? <add points=50>{weight=50}
+- Tails this time! Maybe this is just the universe finding balance, who knows. Unfortunately for you, I'm gonna have to take your hard-earned money. Don't worry, I'm sure you'll get it back in no time. Speaking of, heads or tails? <sub points=50>{weight=50}
+
++ tails
+% tails it is what do they call that beginners luck in any case thats a strong start thats 50 to you lets see if lucks still on your side eh heads or tails
+- Tails again! Look at that! That's £50 to ya. Y'know.. tails can't always win, maybe you should go for heads next, just for probabilitys sake. But hey, what do I know? I'm just a coin. So, same again: heads or tails? <add points=50>{weight=50}
+- Heads this time! Maybe this is just the universe finding balance, who knows. Unfortunately for you, I'm gonna have to take your hard-earned money. Don't worry, I'm sure you'll get it back in no time. Speaking of, heads or tails? <sub points=50>{weight=50}
+
++ heads
+% tails hey a bumpy start never killed anybody but it does mean you get a little deduction so ill be taking 50 off you just for now im sure youll earn it back and then some so lets get to it heads or tails
+- Heads again! Look at that! That's £50 to ya. Y'know.. heads can't always win, maybe you should go for tails next, just for probabilitys sake. But hey, what do I know? I'm just a coin. So, same again: heads or tails? <add points=50>{weight=50}
+- Tails this time! Maybe this is just the universe finding balance, who knows. Unfortunately for you, I'm gonna have to take your hard-earned money. Don't worry, I'm sure you'll get it back in no time. Speaking of, heads or tails? <sub points=50>{weight=50}
+
++ tails
+% tails hey a bumpy start never killed anybody but it does mean you get a little deduction so ill be taking 50 off you just for now im sure youll earn it back and then some so lets get to it heads or tails
+- Tails again! Look at that! That's £50 to ya. Y'know.. tails can't always win, maybe you should go for heads next, just for probabilitys sake. But hey, what do I know? I'm just a coin. So, same again: heads or tails? <add points=50>{weight=50}
+- Heads this time! Maybe this is just the universe finding balance, who knows. Unfortunately for you, I'm gonna have to take your hard-earned money. Don't worry, I'm sure you'll get it back in no time. Speaking of, heads or tails? <sub points=50>{weight=50}
