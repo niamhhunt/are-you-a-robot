@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 
 * {
-  font-family: 'Times New Roman', serif;
+  font-family: 'Times New ', serif;
   font-size: 12pt;
   margin: 0;
   box-sizing: border-box;
@@ -10,7 +10,8 @@
 
 body {
   background-size: cover;
-  background-image: url("./images/coin-spin.gif")
+  background-image: url("./images/coin-spin.gif");
+  justify-content: left;
 }
 
 .title {
@@ -71,8 +72,8 @@ body {
   text-align: left;
   margin-right: auto;
   background:gold;
-  color: black;
-  border: 5px black;
+  color: #000000;
+  border: 5px #d3b9e2;
   padding: 15px;
 }
 
@@ -80,9 +81,9 @@ body {
   text-align: right;
   margin-right: 10px;
   margin-left: auto;
-  background: black;
-  border: 5px black;
-  color: silver;
+  background: #d3b9e2;
+  border: 5px #d3b9e2;
+  color: rgb(0, 0, 0);
   padding: 15px;
 }
 
