@@ -167,6 +167,8 @@
 ! sub okay      = yes
 ! sub ok        = yes
 ! sub yessss    = yes
+! sub yessir = yes
+! sub sure      = yes
 ! sub nope       = no
 ! sub nah        = no
 ! sub no thanks  = no
@@ -174,6 +176,7 @@
 ! sub nooo       = no
 ! sub no way     = no
 ! sub not really = no
+! sub howdy     = hello
 ! sub hi        = hello
 ! sub hey       = hello
 ! sub hii       = hello
@@ -190,7 +193,16 @@
 ! sub my names = my name is
 ! sub i am called = my name is
 ! sub tail = tails
+! sub tailss = tails
+! sub tailz = tails
+! sub tials = tails
+! sub taisl = tails
 ! sub head = heads
+! sub haeds = heads
+! sub headss = heads
+! sub headds = heads
+! sub heasd = heads
+! sub heds = heads
 
 
 // Person substitutions
