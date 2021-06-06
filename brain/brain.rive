@@ -24,6 +24,9 @@
 + (what is my name|who am i)
 - <get name>. Or at least that's what you said.
 
++ haha
+- What's so funny?
+
 + (take a selfie|what do you look like|how do you look)
 - here...\n<img src="../images/penny.png">
 
