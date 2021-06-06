@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 
-
 * {
   font-family: 'Times New Roman', serif;
   font-size: 14pt;
@@ -53,7 +52,6 @@ body {
   padding: 20px 20px 0px 18px;
   border-radius: 10px;
 }
-
 
 
 .messages {
@@ -141,3 +139,4 @@ input:focus {
     height: 7.5vh;
   }
 }
+

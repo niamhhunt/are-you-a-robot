@@ -1,6 +1,5 @@
 ! version = 2.0
 
-
 + [*] hello [*]
 - Alright? What's your name then?
 
@@ -23,9 +22,6 @@
 
 + (what is my name|who am i)
 - <get name>. Or at least that's what you said.
-
-+ haha
-- What's so funny?
 
 + (take a selfie|what do you look like|how do you look)
 - here...\n<img src="../images/penny.png">
@@ -101,7 +97,6 @@
 - Tails it is! What do they call that.. beginners luck? In any case that's a strong start! That's £50 to you. Let's see if luck's still on your side, eh? Heads or tails? <add points=50>{weight=50}
 - Heads! Hey, a bumpy start never killed anybody. However, it does mean you get a little deduction, so I'll be taking £50 off you, just for now. I'm sure you'll earn it back and then some. So, let's get to it: heads or tails? <sub points=50>{weight=50}
 
-
 + [*] heads [*]
 % heads it is what do they call that beginners luck in any case thats a strong start thats 50 to you lets see if lucks still on your side eh heads or tails
 - Heads again! Look at that! That's £50 to ya. Y'know.. heads can't always win, maybe you should go for tails next, just for the sake of probability. But hey, what do I know? I'm just a coin. So, same again: heads or tails? <add points=50>{weight=50}
@@ -146,7 +141,6 @@
 
 
 
-
 + [*] heads [*]
 % heads again look at that thats 50 to ya yknow heads can not always win maybe you should go for tails next just for the sake of probability but hello what do i know i am just a coin so same again heads or tails
 - Heads it is. On the up and up, huh? Good for you! Hey, more risk more reward, let's up it to £100 for that win. Here's hoping that luck doesn't sour any time soon... so: heads or tails? <add points=100>{weight=50}
@@ -186,7 +180,6 @@
 % heads this time maybe this is just the universe finding balance who knows unfortunately for you i am gonna have to take your hardearned money do not worry i am yes you will get it back in no time speaking of heads or tails
 - Tails it is. On the up and up, huh? Good for you! Hey, more risk more reward, let's up it to £100 for that win. Here's hoping that luck doesn't sour any time soon... so: heads or tails? <add points=100>{weight=50}
 - Heads. Tough call, kid. Fate is fickle and all that. Well, it's fortunate for me that the stakes are raising, so I'll be taking £100 from ya. Don't sweat it, your luck is changing, I can feel it. Heads or tails? <sub points=100>{weight=50}
-
 
 
 
@@ -229,7 +222,6 @@
 % heads tough call kid fate is fickle and all that well it is fortunate for me that the stakes are raising so i will be taking 100 from ya do not sweat it your luck is changing i can feel it heads or tails
 - Tails, you guessed it! That earns ya another £100 in the bank. No time to waste, there's money to be made: heads or tails? <add points=100>{weight=50}
 - That's a heads, unlucky <get name>. That means I gotta take £100 from ya. But hey, no time to waste, let's earn you that money back, huh? Heads or tails? <sub points=100>{weight=50}
-
 
 
 
@@ -278,7 +270,6 @@
 
 
 
-
  
 + [*] heads [*]
 % heads it is well heres another 200 for that win things seem to be moving in your favour hello maybe they will stay that way heads or tails
@@ -322,7 +313,6 @@
 
 
 
-
 + [*] heads [*]
 % heads indeed thats a success meaning 300 for you it doesnt get better than this does it so heads or tails
 - Tails! Seems like you thought wrong... But the game is still young and there's still money to be earned! Heads or tails? <sub points=400>{weight=50}
@@ -362,7 +352,6 @@
 % thats actually a heads unfortunately say goodbye to the 300 i will be taking from you lets push on heads or tails
 - Heads! Seems like you thought wrong... But the game is still young and there's still money to be earned! Heads or tails? <sub points=400>{weight=50}
 - Nope, it's heads. Uh oh, looks like heads or tails is a little tougher than it's cracked up to be, huh? I'm sure you'll win this next one. Heads or tails? <sub points=250>{weight=50}
-
 
 
 
@@ -408,7 +397,6 @@
 
 
 
-
 + [*] heads [*]
 % wrong guess thats a tails i hope you are not gonna be missing this money too desperately but the games not over yet lets go heads or tails weight50
 - Wrong again. Oh <get name>, you're really in it now. You know what question comes next. Heads or tails? <sub points=500>{weight=50}
@@ -450,7 +438,6 @@
 - That's incorrect. Are ya sure you're not doing it on purpose? There's only one coin toss left... make it count. Heads or tails? <sub points=700>{weight=50}
 
 
-
 + [*] heads [*]
 % wrong again oh <get name> you are really in it now you know what question comes next heads or tails
 - Sorry to say but ya didn't exactly end on a high note with that one, so I'll just take a little bit off of your final total here. Are ya ready to know what your final earnings amount to? <sub points=500>
@@ -458,12 +445,10 @@
 + [*] tails [*]
 % wrong again oh <get name> you are really in it now you know what question comes next heads or tails
 - Sorry to say but ya didn't exactly end on a high note with that one, so I'll just take a little bit off of your final total here. Are ya ready to know what your final earnings amount to? <sub points=500>
-
 
 + [*] heads [*]
 % thats incorrect are ya yes you are not doing it on purpose theres only one coin toss left make it count heads or tails
 - Sorry to say but ya didn't exactly end on a high note with that one, so I'll just take a little bit off of your final total here. Are ya ready to know what your final earnings amount to? <sub points=500>
-
 
 + [*] tails [*]
 % thats incorrect are ya yes you are not doing it on purpose theres only one coin toss left make it count heads or tails
